@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  list-style: none;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.search {
+  border: 2px solid black;
+  height: 5vh;
+}
+
+.container{
+  margin: 1rem 0;
+}
+
+.navbar_header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-img {
+  height: 60px !important;
+}
+
+.profile-left{
+  border: 2px solid yellow;
+  height: 90vh;
+}
+
+.profile-container{
+  background-color: rgb(255, 234, 237);
+  margin: 0.5rem;
+}
+
+.user-profile {
+  text-align: center;
+  background-color: rgb(255, 218, 223);
+}
+
+.user-profile-pic{
+  border-radius: 50%;
+  height: 100px;
+  margin: 0.7rem 0;
+}
+
+.username{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.3rem 0;
+}
+
+.user-email{
+  font-size: small;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.user-profile-show{
+  text-align: start;
+  margin: 0 3rem;
+}
+
+.user-profile-show span{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.user-profile-show p{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.change-pass{
+  background-color: rgb(255, 234, 237);
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.change-pass-text{
+  background-color: rgb(255, 218, 223);
+  margin: 0.5rem 0;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+
+.pass-form{
+  margin: 3rem;
+}
